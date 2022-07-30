@@ -40,7 +40,7 @@ function Navbar() {
             
             <div className="flex justify-between items-center max-w[1240]  px-6">
                 <div className="flex mt-3">
-                <img src={require('./images/logo.svg').default} height={37} width={37} className="md:block sm:hidden mx-3 lg:animate-bounce cursor-pointer"/>
+                <img src={require('../images/logo.svg').default} height={37} width={37} className="md:block sm:hidden mx-3 lg:animate-bounce cursor-pointer"/>
                 <div className="flex ">
                     <ul className="hidden sm:flex sm:visible gap-2 lg:gap-3 mt-2">
 
@@ -84,7 +84,7 @@ function Navbar() {
                     <h1 className="text-3xl mt-4 font-semibold dark:text-white">The <div class="text-blue inline text-4xl font-semibold">fully customisable</div> crypto trade and research tool</h1>
                     <p className="text-red mt-8">You won't need 5 tabs any longer</p>
                     <div className="m-10 hover:shadow-lg">
-                            <img src={require('./images/lightimg.jpg').default} className=" rounded-lg " height={80} weight={80}/>
+                            <img src={require('../images/lightimg.jpg').default} className=" rounded-lg " height={80} weight={80}/>
                     </div>
 
                     
@@ -114,7 +114,7 @@ function Navbar() {
                         <h3 className="dark:text-white">Connect your wallet</h3>
                         <p className="dark:text-grey text-sm mt-2">Using Metamask, you will have the ability to see your coins appear in your Cointools Portfolio automatically.</p>
                         <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
-                        <img src={require('./images/img1.png').default}/>
+                        <img src={require('../images/img1.png').default}/>
                         </div>
                         
                     </div>
@@ -128,7 +128,7 @@ function Navbar() {
                         <h3 className="dark:text-white">Manage your portfolio</h3>
                         <p className="dark:text-grey text-sm mt-2">Add tokens and keep track of your profit & loss. Your information sits on your machine.</p>
                         <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
-                        <img src={require('./images/img2.png').default}/>
+                        <img src={require('../images/img2.png').default}/>
                         </div>
 
                     </div>
@@ -144,7 +144,7 @@ function Navbar() {
                         <h3 className="dark:text-white">Find opportunities</h3>
                         <p className="dark:text-grey mt-2 text-sm">Find upcoming events and project better what your stocks will do. Make better decisions.</p>
                         <div className="bg-light dark:bg-black rounded-lg mt-3 mb-3 lg:w-100 lg:h-46">
-                        <img src={require('./images/img3.png').default}/>
+                        <img src={require('../images/img3.png').default}/>
                         </div>
                     </div>
                   </div>
@@ -152,7 +152,7 @@ function Navbar() {
 
             <div ref={features} className="m-5 overflow-hidden relative">
                 <div className="rounded-lg bg-light relative  container-lg dark:bg-middle">
-                   <img src={require('./images/btc.svg').default} className="w-full h-full object-cover absolute rounded-lg imp hidden md:flex md:visible"/>
+                   <img src={require('../images/btc.svg').default} className="w-full h-full object-cover absolute rounded-lg imp hidden md:flex md:visible"/>
                 <div className="">
                     <div className="relative lg:m-24 lg:pt-8 ">
                         <div className="grid lg:grid-cols-2 ">
@@ -180,7 +180,7 @@ function Navbar() {
                                 <p className="text-xs text-red dark:text-green">-8.17%</p>
                                </div>
                                <div className="flex mx-3 place-content-between">
-                                <img src={require('./images/snake.png').default}/>
+                                <img src={require('../images/snake.png').default}/>
                                 <h3 className="text-black text-sm dark:text-white">$21458</h3>
                                 </div>
                                 
@@ -197,7 +197,7 @@ function Navbar() {
                             <div className="rounded-lg bg-white dark:bg-body shadow-lg w-full mb-5 lg:w-screen">
                                <div className="flex mx-3 mt-3 place-content-between">
                                  <div className="flex">
-                                    <img src={require('./images/bnb.png').default} height={30} width={30}/>
+                                    <img src={require('../images/bnb.png').default} height={30} width={30}/>
                
                                     <h1 className="mx-2 text-xl text-black dark:text-white">BNB</h1>        
                                  </div>
@@ -212,7 +212,7 @@ function Navbar() {
                                 <p className="text-xs text-red dark:text-green">-3.16%</p>
                                </div>
                                <div className="flex mx-3 place-content-between">
-                                <img src={require('./images/snake.png').default}/>
+                                <img src={require('../images/snake.png').default}/>
                                 <h3 className="text-black text-sm dark:text-white">$259.91</h3>
                                 </div>
                                 
@@ -243,7 +243,7 @@ function Navbar() {
                                 <p className="text-xs text-red dark:text-green">-3.42%</p>
                                </div>
                                <div className="flex mx-3 place-content-between">
-                                <img src={require('./images/snake.png').default}/>
+                                <img src={require('../images/snake.png').default}/>
                                 <h3 className="text-black text-sm dark:text-white">$1489.9</h3>
                                 </div>
                                 
@@ -296,12 +296,12 @@ function Navbar() {
                </div>
 
                <div className="rounded-lg bg-light dark:bg-middle relative  container-lg">
-                   <img src={require('./images/btc.svg').default} className="w-full h-full object-cover absolute rounded-lg hidden md:flex md:visible"/>
+                   <img src={require('../images/btc.svg').default} className="w-full h-full object-cover absolute rounded-lg hidden md:flex md:visible"/>
                 <div className="mt-6">
                     <div className="relative lg:m-24 lg:p-10">
                         <div className="grid lg:grid-cols-2 lg:px-5 lg:mt-10">
                         <div className="flex gap-10 m-5  px-4 place-content-between">
-                            <img src={require('./images/network.png').default}/>
+                            <img src={require('../images/network.png').default}/>
                            
                         </div>
                    
@@ -343,7 +343,7 @@ function Navbar() {
                </div>
 
                <div className="rounded-lg bg-light dark:bg-middle relative container-lg ">
-                   <img src={require('./images/btc.svg').default} className="w-full h-full object-cover absolute rounded-lg imp hidden md:flex md:visible"/>
+                   <img src={require('../images/btc.svg').default} className="w-full h-full object-cover absolute rounded-lg imp hidden md:flex md:visible"/>
                     <div className="mb-5 mt-6">
                         <div className="relative lg:m-24 lg:pt-8">
                             <div className="grid lg:grid-cols-2">
@@ -354,7 +354,7 @@ function Navbar() {
 
                             <div>
                                 <div className="flex gap-5  lg:p-8 m-10  mx-auto px-4 justify-between">
-                                <img src={require('./images/community.png').default}/>   
+                                <img src={require('../images/community.png').default}/>   
                                 </div>                              
                             </div>   
                             </div>
@@ -614,7 +614,9 @@ function Navbar() {
                 </div>
             
 
-            </div>                
+            </div> 
+
+            
     </div>
   )
 }
